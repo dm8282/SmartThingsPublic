@@ -14,7 +14,7 @@ metadata {
 		command "reset"
 		command "clearError"
 
-		attribute "errorMode", "string"
+		attribute "errorMode", "string", "scene"
 
 		fingerprint mfr: "010F", prod: "0102", model: "2000"
 		fingerprint mfr: "010F", prod: "0102", model: "1000"
